@@ -1,6 +1,28 @@
 .conteiner {
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 2px slateblue;
+}
+@media  screen and (min-width: 480px) {
+  .conteiner {
+    width: 480px;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .conteiner {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .conteiner {
+    width: 1200px;
+  }
+}
+/*.conteiner {
   width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-}
+ }
+*/
