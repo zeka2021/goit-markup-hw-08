@@ -1,0 +1,38 @@
+.link {
+  text-decoration: none;
+}
+.active {
+  color: var(--accent-color);
+}
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.addressnorm {
+  font-style: normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+.body {
+  font-family: var(--main-font);
+  background-color: white;
+  margin: 0 auto;
+  padding: 0;
+}
