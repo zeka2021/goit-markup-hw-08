@@ -31,6 +31,11 @@
                     </li>
                 </ul>
             </nav>
+            <button type="button" class="burger-btn">
+                <svg class="burger-icon">
+                    <use href="./imgdz/sprite.svg#icon-burger"></use>
+                </svg>
+            </button>
             <ul class="contacts list">
                 <li class="contacts__item">
                     <a class=" contacts__link link addressnorm" href="mailto:info@devstudio.com"><svg
@@ -43,6 +48,48 @@
                             height="16px">
                             <use href="./imgdz/sprite.svg#icon-smartphone-1"></use>
                         </svg>+38 096 111 11 11</a>
+                </li>
+            </ul>
+        </div>
+        <div class="mobile-menu">
+            <button type="button" class="mobil-menu-modal__close-btn">
+                <svg class="mobile-menu-modal__icon">
+                    <use href="./imgdz/sprite.svg#icon-close-black-18dp-2-1" width="18px" height="18px"></use>
+                </svg>
+            </button>
+
+            <ul class="mobile-menu__list list">
+                <li class="mobile-menu__item">
+                    <a class="mobile-menu__link link active-element active" href="./index.html">Студия</a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a class="mobile-menu__link link" href="./portfolio.html">Портфолио</a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a class="mobile-menu__link link" href="">Контакты</a>
+                </li>
+            </ul>
+            <ul class="mobile-contacts list">
+                <li class="mobile-contacts__item">
+                    <a class="mobile-contacts__link link" href="tel:+380961111111">+38 096 111 11 11</a>
+                </li>
+                <li class="mobile-contacts__item">
+                    <a class="mobile-contacts__link link addressnorm"
+                        href="mailto:info@devstudio.com">info@devstudio.com </a>
+                </li>
+            </ul>
+            <ul class="list">
+                <li>
+                    <a class="link">Instagram</a>
+                </li>
+                <li>
+                    <a class="link">Twitter</a>
+                </li>
+                <li>
+                    <a class="link">Facebook</a>
+                </li>
+                <li>
+                    <a class="link">LinkedIn</a>
                 </li>
             </ul>
         </div>
@@ -108,7 +155,7 @@
             </div>
         </section> -->
         <!-- занятия -->
-        <!-- <section class="foto-section">
+        <section class="foto-section">
             <div class="conteiner">
                 <h2 class="titl">Чем мы занимаемся</h2>
                 <ul class="foto-list list">
@@ -132,7 +179,7 @@
                     </li>
                 </ul>
             </div>
-        </section> -->
+        </section>
         <!-- команда -->
         <section class="team-section">
             <div class="conteiner">
@@ -410,7 +457,7 @@
         </div>
     </footer>
 
-    <!-- <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="modal__close-btn" data-modal-close>
                 <svg class="modal__icon">
@@ -458,7 +505,7 @@
             </form>
         </div>
     </div>
-    <script src="./css/js/modal.js"></script> -->
+    <script src="./css/js/modal.js"></script>
 </body>
 
 </html>

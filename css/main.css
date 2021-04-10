@@ -72,6 +72,12 @@ img {
   border: 2px slateblue;
 }
 
+.header .conteiner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 @media screen and (min-width: 480px) {
   .conteiner {
     width: 480px;
@@ -123,6 +129,47 @@ img {
 
 .contacts {
   display: none;
+}
+
+.header {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background: #ffffff;
+}
+
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  padding: 48px 40px;
+  background-color: #FFFFFF;
+}
+
+.burger-btn,
+.mobil-menu-modal__close-btn {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.mobil-menu-modal__close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+
+.mobile-menu-modal__icon {
+  width: 40px;
+  height: 40px;
+  fill: #000000;
+}
+
+.burger-icon {
+  width: 40px;
+  height: 40px;
+  fill: #000000;
 }
 
 /*.header {
@@ -241,22 +288,8 @@ img {
   }
 }*/
 .logo {
-  font-family: var(--secondery-font);
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: var(--accent-color);
-  margin-right: 90px;
-}
-
-.logo_light_theme {
-  color: #212121;
-}
-
-.logo_dark_theme {
-  color: #ffffff;
+  width: 134px;
+  height: 28px;
 }
 
 .backdrop {
@@ -564,6 +597,10 @@ img {
 .quality__icon {
   width: 70px;
   height: 70px;
+}
+
+.foto-section {
+  display: none;
 }
 
 .foto-list {
