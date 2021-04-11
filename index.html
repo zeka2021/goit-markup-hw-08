@@ -31,7 +31,7 @@
                     </li>
                 </ul>
             </nav>
-            <button type="button" class="burger-btn">
+            <button type="button" class="burger-btn" data-menu-button>
                 <svg class="burger-icon">
                     <use href="./imgdz/sprite.svg#icon-burger"></use>
                 </svg>
@@ -51,9 +51,9 @@
                 </li>
             </ul>
         </div>
-        <div class="mobile-menu">
-            <button type="button" class="mobil-menu-modal__close-btn">
-                <svg class="mobile-menu-modal__icon">
+        <div class="mobile-menu " data-menu>
+            <button type="button" class="mobile-menu__modal-close-btn" data-menu-close>
+                <svg class="mobile-menu__modal-icon">
                     <use href="./imgdz/sprite.svg#icon-close-black-18dp-2-1" width="18px" height="18px"></use>
                 </svg>
             </button>
@@ -96,12 +96,13 @@
     </header>
     <main>
         <!-- hero -->
+        <!--
         <section class="hero-section overlay">
             <div class=" hero conteiner">
                 <h1 class="hero-text">Эффективное решение для вашего бизнеса</h1>
                 <button class="model-btn" type="button" data-modal-open> Заказать услугу</button>
             </div>
-        </section>
+        </section>-->
         <!-- качества -->
 
         <section class="quality-section">
@@ -153,7 +154,7 @@
                     </li>
                 </ul>
             </div>
-        </section> -->
+        </section>
         <!-- занятия -->
         <section class="foto-section">
             <div class="conteiner">
@@ -506,6 +507,7 @@
         </div>
     </div>
     <script src="./css/js/modal.js"></script>
+    <script src="./css/js/mobile-menu.js"></script>
 </body>
 
 </html>
