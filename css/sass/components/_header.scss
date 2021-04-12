@@ -6,11 +6,13 @@
   display: none;
 }
 .header {
+  position: relative;  
   padding-top: 16px;
   padding-bottom: 16px;
   background: #ffffff;
 }
 .header .conteiner {
+     
     display: flex;
     align-items: center;
     justify-content: space-between;
