@@ -181,6 +181,23 @@ img {
   fill: #000000;
 }
 
+.mobile-social {
+  display: flex;
+  justify-content: space-around;
+}
+
+.mobile-social__item {
+  font-family: --main-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.2;
+  color: #2196F3;
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
+  transform: rotate(90deg);
+  padding-right: 10px;
+}
+
 /*.header {
  border-bottom: 1px solid #ececec;
   padding-top: 24px;
@@ -557,12 +574,11 @@ img {
 .titl {
   font-family: var(--main-font);
   font-weight: bold;
-  font-size: 36px;
+  font-size: 28px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  margin-bottom: 30px;
 }
 
 /*.quality-section {
