@@ -97,10 +97,8 @@ margin-bottom: 20px;
 .footer-form {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  margin-left: 93px;
-  align-items: baseline;
-  width: 570px;  
+  justify-content: space-between;  
+  align-items: baseline;    
 }
 .form-ftr__text {
  font-family: var(--main-font);
@@ -113,13 +111,11 @@ margin-bottom: 20px;
  color: #FFFFFF;
  margin-bottom: 20px; 
 }
-.form-ftr__wrapper {
-  display: inline-flex;
+.form-ftr__wrapper {  
   height: 50px;
   margin-top: 20px;  
 }
-.form-ftr__input {
-  width: 358px;  
+.form-ftr__input {    
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;

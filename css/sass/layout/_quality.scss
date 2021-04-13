@@ -9,6 +9,7 @@
   margin-right: 30px;
 }*/
 .quality-section {
+  padding-top: 60px;
   padding-bottom: 60px;
 }
 .quality__titem {
@@ -29,13 +30,16 @@
   letter-spacing: 0.03em;
   color: #757575;
 }
-.quality .conteiner {
+.quality  {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.quality__item {  
-  height: 226px;
+.quality__item {    
   margin-bottom: 30px;
+
+  &:not(:last-child) {
+   margin-bottom: 30px;
+  }
 
   
 }
