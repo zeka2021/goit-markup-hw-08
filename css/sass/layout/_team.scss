@@ -26,7 +26,7 @@
    background-color: #ffffff;
    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
- 
+  
     
   }
   .team-list__name {
@@ -57,9 +57,9 @@
   .social-list__item {
     margin-right: 10px;
 
-   &:not(:last-child) {
+    &:not(:last-child) {
       margin-right: 10px;
-   }
+    }
   }
  .social-list__link {
    display: flex;
@@ -102,15 +102,22 @@
 }  
   
 @media screen and (min-width: 768px) {
-  .team-list {
+  // .conteiner {
+    // margin-left: -30px;
+    // margin-top: -30px;
+  // }
+  .team-list  {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap;  
+    flex-basis: calc(100%/2-30px);
+    margin-top: -30px;
+    margin-left: -30px;    
   }
-  .team-list__item {    
-    flex-basis: calc((100%-60px)/2);
-    margin-bottom: 15px;    
-    min-width: 354px;   
-
+  .team-list__item {     
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    width: 354px;
     // & :not(:last-child ) {
       // margin: 15px;
     // }

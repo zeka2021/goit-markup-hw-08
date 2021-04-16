@@ -20,3 +20,8 @@
 .logo_dark_theme {
   color: #ffffff;
 }
+ @media screen and (min-width: 768px) {
+   .logo {
+     margin-right: 88px;
+   }
+ }

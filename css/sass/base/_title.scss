@@ -1,4 +1,4 @@
- @media  screen and (min-width:480px) and (max-width:767px) {
+ @media  screen and (min-width: 480px) {
   .titl {
    font-family: var(--main-font);
    font-weight: bold;
@@ -7,11 +7,17 @@
    line-height: 1.17;
    text-align: center;
    letter-spacing: 0.03em;
-   color: #212121;  
+   color: #212121;
+   margin-bottom: 30px;  
    
    // font-size: 36px;
   }
  }
+@media  screen and (min-width: 768px) {
+      .title {
+        font-size: 28px;        
+       }     
+}
 
 
 

@@ -1,28 +1,6 @@
-.hero-section {
-  background-color: #2f303a;
-}
-@media  screen and (min-width:320px) and (max-width:767px) {
-  .overlay {
-   width: 100vw;
-   max-width: 480px;
-   height: 400px;
-   margin-left: auto;
-   margin-right: auto;
-   outline: 1px solid black;
-   background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url("../imgdz/stydio/img-bg-mobile.jpg");
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center; 
-
-   @media screen and (min-device-pixel-ratio: 2),
-                     (min-resolution: 192dpi),
-                     (min-resolution: 2dppx) {
-      background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url("../imgdz/stydio/img-bg-mobile@2x.jpg");
-   }
+ .hero-section {
+   background-color: #2f303a;
   }
- .hero  {
-   padding: 118px 60px;   
- }
  .hero-text {
    font-family: var(--main-font);
    font-weight: 900;
@@ -33,15 +11,74 @@
    color: #ffffff;
    margin-left: auto;
    margin-right: auto;
-  //  padding-bottom: 30px;
- }
+   padding-bottom: 30px;
+  }
+  
+  .hero  {
+   padding: 118px 60px;   
+  }
 
+@media  screen and (min-width:480px) {
+  .overlay {
+    width: 100vw;
+    max-width: 480px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 1px solid black;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url("../imgdz/stydio/img-bg-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+  }
+
+   @media screen and (min-device-pixel-ratio: 2),
+                     (min-resolution: 192dpi),
+                     (min-resolution: 2dppx) {
+     .overlay {
+       background-image: linear-gradient( rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../imgdz/stydio/img-bg-mobile@2x.jpg");
+
+      }
+    }
+}
+@media  screen and (min-width:768px) {
+  .hero {
+    padding: 118px 204px;
+  }
+  .overlay {
+    max-width: 768px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url("../imgdz/stydio/img-bg-tablet.jpg");
+  }
+   @media screen and (min-device-pixel-ratio: 2),
+                     (min-resolution: 192dpi),
+                     (min-resolution: 2dppx) {
+     .overlay {
+       background-image: linear-gradient( rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../imgdz/stydio/img-bg-tablet2x.jpg");
+
+      }
+    }
 }
 @media  screen and (min-width:1200px) {
+  .hero {
+    padding: 200px 452px;
+  }
   .hero-text {
    font-size: 44px;
    line-height: 1.36;
   }
+  .overlay {
+    max-width: 1200px;
+    height: 600px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url("../imgdz/stydio/img-bg-desktop.jpg");
+  }
+    @media screen and (min-device-pixel-ratio: 2),
+                     (min-resolution: 192dpi),
+                     (min-resolution: 2dppx) {
+     .overlay {
+       background-image: linear-gradient( rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../imgdz/stydio/img-bg-desktop2x.jpg");
+
+      }
+    }
  
 }
 
