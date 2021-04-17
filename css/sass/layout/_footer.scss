@@ -188,5 +188,36 @@
       justify-content: space-around;
     }
   }
+@media screen and (min-width: 1200px) {
+  .footer .conteiner {
+    display: flex;  
+    align-items: baseline;
+    justify-content:flex-start; 
+  }
+  .footer-address {
+    margin-right: 70px;
+  }
+   .footer-form {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     justify-content: space-between;  
+     align-items: baseline;
+     width: 570px;    
+    }
+    .form-ftr__wrapper { 
+      display: inline-flex; 
+      height: 50px;
+      margin-top: 20px;
+      
+    }
+    .form-ftr__input {
+      margin-right: 12px;
+      width: 358px;
+    }
+}
+
  
 
