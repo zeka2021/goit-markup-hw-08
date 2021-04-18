@@ -88,6 +88,10 @@
   .contacts__item {
     display: flex;
     align-items: center;
+
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
   }
   .navigetion {
     display: flex;
@@ -117,6 +121,7 @@
 
     &:not(:last-child) {
       margin-right: 50px;
+      margin-bottom: 0;
     }
   }
 }
