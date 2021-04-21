@@ -49,7 +49,10 @@
 }
 @media screen and (min-width: 768px) {
   .hero {
-    padding: 118px 204px;
+    padding: 118px 0;
+  }
+  .hero-text {
+    max-width: 360px;
   }
   .overlay {
     max-width: 768px;
@@ -75,11 +78,13 @@
   .hero .conteiner {
     width: 100%;
     height: 600px;
-    padding: 200px 452px;
+    padding: 200px 0;
   }
   .hero-text {
     font-size: 44px;
     line-height: 1.36;
+    max-width: 696px;
+    margin-bottom: 30px;
   }
   .overlay {
     max-width: 1600px;

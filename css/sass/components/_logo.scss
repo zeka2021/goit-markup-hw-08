@@ -1,9 +1,4 @@
 .logo {
-  width: 134px;
-  height: 28px;
-}
-
-.logo {
   font-family: var(--secondery-font);
   font-style: normal;
   font-weight: bold;
@@ -11,7 +6,7 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-color);
-//   margin-right: 90px;
+  //   margin-right: 90px;
 }
 
 .logo_light_theme {
@@ -20,8 +15,8 @@
 .logo_dark_theme {
   color: #ffffff;
 }
- @media screen and (min-width: 768px) {
-   .logo {
-     margin-right: 88px;
-   }
- }
+@media screen and (min-width: 768px) {
+  .logo {
+    margin-right: 88px;
+  }
+}

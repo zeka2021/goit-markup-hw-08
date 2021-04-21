@@ -118,6 +118,9 @@
   }
 }
 @media screen and (min-width: 1200px) {
+  .team-list__item {
+    flex-basis: calc(100% / 4 - 30px);
+  }
 }
 // width: 285px;
 // &:not(:last-child) {
