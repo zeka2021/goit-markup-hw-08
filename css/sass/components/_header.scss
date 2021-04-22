@@ -1,6 +1,8 @@
 .header {
   border-bottom: 1px solid #ececec;
   background: #ffffff;
+  padding-top: 26px;
+  padding-bottom: 26px;
 }
 
 @media screen and (min-width: 480px) {
@@ -58,6 +60,12 @@
     width: 40px;
     height: 40px;
     fill: #000000;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+      fill: var(--accent-color);
+    }
   }
   .mobile-menu {
     color: var(--accent-color);
@@ -78,7 +86,6 @@
     letter-spacing: 0.02em;
     color: #212121;
     position: relative;
-    padding-bottom: 30px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     &:hover,
@@ -87,7 +94,7 @@
     }
   }
   .mobile-contacts {
-    margin-top: 300px;
+    padding-top: 200px;
     text-align: start;
   }
   .mobile-contacts__item {
@@ -109,22 +116,18 @@
   .mobile-social {
     display: flex;
     justify-content: space-around;
-    margin-top: 64px;
+    padding-top: 64px;
   }
   .mobile-social__item {
-    font-family: --main-font;
+    font-family: (--main-font);
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 1.2;
+    border-right: 1px solid rgba(128, 128, 128, 0.2);
     color: #2196f3;
-    border-right: 1px solid rgba(33, 33, 33, 0.2);
     transform: rotate(90deg);
     padding-right: 10px;
-
-    &:last-child {
-      border-right: none;
-    }
   }
 }
 @media screen and (min-width: 768px) {

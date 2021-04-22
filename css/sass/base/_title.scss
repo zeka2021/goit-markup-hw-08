@@ -1,24 +1,18 @@
- @media  screen and (min-width: 480px) {
+@media screen and (min-width: 480px) {
   .titl {
-   font-family: var(--main-font);
-   font-weight: bold;
-   font-style: normal;
-   font-size: 26px;
-   line-height: 1.17;
-   text-align: center;
-   letter-spacing: 0.03em;
-   color: #212121;
-   margin-bottom: 30px;  
-   
-   // font-size: 36px;
+    font-family: var(--main-font);
+    font-weight: bold;
+    font-style: normal;
+    font-size: 26px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    padding-bottom: 30px;
   }
- }
-@media  screen and (min-width: 768px) {
-      .title {
-        font-size: 28px;        
-       }     
 }
-
-
-
- 
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 28px;
+  }
+}
