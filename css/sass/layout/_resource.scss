@@ -9,7 +9,7 @@
   color: #212121;
   padding: 6px 22px;
   background-color: #f5f4fa;
-  border-radius: none;
+  border-radius: 4px;
   border: none;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -29,7 +29,7 @@
 @media screen and (min-width: 480px) {
   .resource {
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
   }
   .resource-list {
     display: flex;
@@ -43,13 +43,14 @@
 }
 @media screen and (min-width: 768px) {
   .resource {
+    padding-top: 60px;
     padding-bottom: 14px;
   }
 }
 @media screen and (min-width: 1200px) {
   .resource {
     padding-top: 94px;
-    padding-bottom: 94px;
+    padding-bottom: 34px;
   }
   .resource-list {
     display: flex;
