@@ -42,7 +42,10 @@
 @media screen and (min-width: 768px) {
   .resource {
     padding-top: 60px;
-    padding-bottom: 14px;
+    padding-bottom: 60px;
+  }
+  .resource-list {
+    margin-bottom: 14px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -53,6 +56,7 @@
   .resource-list {
     display: flex;
     justify-content: center;
+    margin-bottom: 34px;
   }
   .resource-list__item > {
     margin-right: 8px;

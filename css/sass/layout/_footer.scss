@@ -22,6 +22,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin-bottom: 60px;
   // margin-right: 70px;
 }
 .logo-footer {
@@ -141,6 +142,7 @@
   padding: 16px;
   background: #2f303a;
   width: 100%;
+  margin-bottom: 20px;
 }
 
 .form-ftr__icon {
@@ -219,5 +221,6 @@
   .form-ftr__input {
     margin-right: 12px;
     width: 358px;
+    margin-bottom: 0;
   }
 }
