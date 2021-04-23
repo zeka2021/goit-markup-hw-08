@@ -29,6 +29,7 @@
 }
 .info__adr {
   font-family: var(--main-font);
+  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -37,6 +38,7 @@
 }
 .info__mail {
   font-family: var(--main-font);
+  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -45,6 +47,7 @@
 }
 .info__tel {
   font-family: var(--main-font);
+  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -171,7 +174,7 @@
  
 }*/
 @media screen and (min-width: 480px) {
-  .footer .conteiner {
+  .footer {
     display: block;
     margin: 0 auto;
     padding-top: 60px;
@@ -186,6 +189,9 @@
   }
 }
 @media screen and (min-width: 1200px) {
+  .footer {
+    padding-top: 72px;
+  }
   .footer .conteiner {
     display: flex;
     align-items: baseline;
@@ -195,14 +201,18 @@
     margin-right: 70px;
     text-align: left;
   }
+  .footer-group {
+    margin-bottom: 0;
+    margin-right: 85px;
+  }
   .footer-form {
     display: flex;
-    text-align: center;
+    text-align: start;
     justify-content: space-between;
     align-items: baseline;
   }
   .form-ftr__wrapper {
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
     margin-top: 20px;
   }

@@ -55,6 +55,13 @@
   .mobile-menu__modal-icon {
     width: 40px;
     height: 40px;
+    fill: #212121;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+      fill: var(--accent-color);
+    }
   }
   .burger-icon {
     width: 40px;
@@ -116,16 +123,23 @@
   .mobile-social {
     display: flex;
     justify-content: space-around;
-    padding-top: 64px;
+    margin-top: 64px;
   }
-  .mobile-social__item {
-    font-family: (--main-font);
+  .mobile-social__link {
+    font-family: var(--main-font);
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 1.2;
-    border-right: 1px solid rgba(128, 128, 128, 0.2);
     color: #2196f3;
+
+    &:hover .mobile-social__item {
+      border-right: 1px solid var(--accent-color);
+      transform: rotate(90deg);
+    }
+  }
+  .mobile-social__item {
+    border-right: 1px solid rgba(128, 128, 128, 0.2);
     transform: rotate(90deg);
     padding-right: 10px;
   }
