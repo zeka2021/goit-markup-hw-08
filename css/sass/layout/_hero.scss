@@ -3,6 +3,7 @@
 }
 .hero-text {
   font-family: var(--main-font);
+  font-style: normal;
   font-weight: 900;
   font-size: 26px;
   line-height: 1.6;
@@ -14,7 +15,7 @@
   margin-bottom: 30px;
 }
 .hero {
-  padding-bottom: 118px;
+  padding: 118px 60px;
 }
 
 @media screen and (min-width: 480px) {
